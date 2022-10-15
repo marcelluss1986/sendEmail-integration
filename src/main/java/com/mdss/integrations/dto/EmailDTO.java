@@ -2,7 +2,7 @@ package com.mdss.integrations.dto;
 
 import java.io.Serializable;
 
-public class emailDTO implements Serializable{
+public class EmailDTO implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 	private String fromEmail;
@@ -13,11 +13,11 @@ public class emailDTO implements Serializable{
 	private String body;
 	private String contentType;
 	
-	public emailDTO() {
+	public EmailDTO() {
 		
 	}
 
-	public emailDTO(String fromEmail, String fromName, String replyTo, String to, String subject, String body,
+	public EmailDTO(String fromEmail, String fromName, String replyTo, String to, String subject, String body,
 			String contentType) {
 		super();
 		this.fromEmail = fromEmail;
